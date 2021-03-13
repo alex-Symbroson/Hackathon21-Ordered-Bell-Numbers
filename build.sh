@@ -1,1 +1,1 @@
-sudo docker build -t bellnums_cpp .
+g++ bellnums.cpp -lgmp -lgmpxx -o bellnums

@@ -1,3 +1,1 @@
-
-sudo docker run bellnums_cpp 10
-
+./bellnums ${@:-10}
